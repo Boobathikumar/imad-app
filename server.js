@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/myname', function (req, res) {
-  res.send('I am Boobathikumar');
+  res.sendFile(path.join(__dirname, 'ui', 'mydesign.html'));
 });
 
 app.get('/mysubsite', function (req, res) {
