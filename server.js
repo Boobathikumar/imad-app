@@ -13,7 +13,7 @@ app.get('/myname', function (req, res) {
   res.send('I am Boobathikumar');
 });
 
-app.get('/musubsite', function (req, res) {
+app.get('/mysubsite', function (req, res) {
   res.send('My Subsite');
 });
 
