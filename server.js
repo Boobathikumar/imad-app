@@ -13,8 +13,8 @@ app.get('/myname', function (req, res) {
   res.send('I am Boobathikumar');
 });
 
-app.get('/myname', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+app.get('/musubsite', function (req, res) {
+  res.send('My Subsite');
 });
 
 app.get('/ui/style.css', function (req, res) {
